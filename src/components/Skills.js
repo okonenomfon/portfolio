@@ -7,6 +7,8 @@ function Skills() {
     { name: 'JavaScript', level: 'Advanced' },
     { name: 'React', level: 'Intermediate' },
     { name: 'Node.js', level: 'Intermediate' },
+    { name: 'Machine Learning', level: 'Intermediate' },
+    { name: 'SQL', level: 'Intermediate' },
     { name: 'MongoDB', level: 'Intermediate' },
     { name: 'C++', level: 'Beginner' },
     { name: 'Rust', level: 'Beginner' },
@@ -17,6 +19,7 @@ function Skills() {
     { name: 'Teamwork', level: 'Expert' },
     { name: 'Time Management', level: 'Expert' },
     { name: 'Leadership', level: 'Advanced' },
+    { name: 'Critical Thinking', level: 'Advanced' },
     { name: 'Problem Solving', level: 'Advanced' },
     { name: 'Adaptability', level: 'Advanced' },
   ];
