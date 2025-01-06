@@ -10,22 +10,20 @@ function Header({ menuOpen, setMenuOpen }) {
             <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
         </button>
-        <div className={`md:flex space-x-6 ${menuOpen ? 'block' : 'hidden'}`}>
-          <a href="#hero" className="hover:text-blue-400">Home</a>
-          <a href="#about" className="hover:text-blue-400">About</a>
-          <a href="#skills" className="hover:text-blue-400">Skills</a>
-          <a href="#projects" className="hover:text-blue-400">Projects</a>
-    
-          <a href="#contact" className="hover:text-blue-400">Contact</a>
-
-          <a
-          href="/cv.pdf"
-          download
-          className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-200 ml-4"
-        >
-          Download CV
-        </a>
-        </div>
+        <div className={`md:flex ${menuOpen ? 'flex flex-col space-y-4' : 'hidden'} md:space-x-6`}>
+            <a href="#hero" className="hover:text-blue-400">Home</a>
+            <a href="#about" className="hover:text-blue-400">About</a>
+            <a href="#skills" className="hover:text-blue-400">Skills</a>
+            <a href="#projects" className="hover:text-blue-400">Projects</a>
+            <a href="#contact" className="hover:text-blue-400">Contact</a>
+            <a
+              href="/cv.pdf"
+              download
+              className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-200"
+            >
+              Download CV
+            </a>
+          </div>
       </nav>
     </header>
   );
