@@ -16,7 +16,7 @@ function About() {
         I am an enthusiastic software engineering student with a keen interest in artificial intelligence and financial technology, currently pursuing a Bachelor of Science at Pan-Atlantic University. Proficient in Python and JavaScript with a demonstrated ability to excel in these languages. Eager to apply my skills to innovative projects and actively seeking internship opportunities. Let's connect and explore potential collaborations.
         </p>
         <img
-          src="/about.jpg"
+          src="about.jpg"
           alt="About Me"
           className="about-image rounded-full mx-auto shadow-md max-w-[200px] hover:scale-110 transition-transform duration-300"
         />
@@ -39,7 +39,7 @@ function About() {
             }}
           >
             <img
-              src="/linkedin.svg"
+              src="linkedin.svg"
               alt="LinkedIn"
               style={{
                 width: '2rem',
@@ -67,7 +67,7 @@ function About() {
             }}
           >
             <img
-              src="/email.svg"
+              src="email.svg"
               alt="Email"
               style={{
                 width: '2rem',
@@ -95,7 +95,7 @@ function About() {
             }}
           >
             <img
-              src="/github.svg"
+              src="github.svg"
               alt="Github"
               style={{
                 width: '2rem',

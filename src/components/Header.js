@@ -4,7 +4,7 @@ function Header({ menuOpen, setMenuOpen }) {
   return (
     <header className="bg-gray-900 text-white p-4 sticky top-0 z-10 shadow-md">
       <nav className="container mx-auto flex justify-between items-center">
-      <img src="/logo.png" alt="Logo" className="h-8 w-auto" />
+      <img src="logo.png" alt="Logo" className="h-8 w-auto" />
         <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden text-blue-400">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
             <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>

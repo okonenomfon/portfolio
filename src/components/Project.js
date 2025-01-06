@@ -5,13 +5,13 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "A personal portfolio to showcase my projects and skills.",
-    image: "/portfolio.png",
+    image: "portfolio.png",
     link: "#",
   },
   {
     title: "E-commerce Platform",
     description: "A scalable e-commerce platform with React and Node.js.",
-    image: "/ecom.jpg",
+    image: "ecom.jpg",
     link: "#",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "CBT Application",
     description: "A CBT application using C++.",
-    image: "/cbt.jpg",
+    image: "cbt.jpg",
     link: "#",
   },
   {
@@ -35,7 +35,7 @@ const projects = [
   {
     title: "To-Do list",
     description: "A task management app with drag-and-drop functionality.",
-    image: "/todo.jpg",
+    image: "todo.jpg",
     link: "#",
   },
 ];

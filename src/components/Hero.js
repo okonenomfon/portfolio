@@ -10,7 +10,7 @@ function Hero() {
         {/* Left: Image */}
         <div className="flex-shrink-0 w-full md:w-1/2 mb-8 md:mb-0">
           <img
-            src="/eno.jpg"
+            src="eno.jpg"
             alt="Hero"
             className="hero-image w-4/5 max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[450px] mx-auto rounded-full shadow-xl hover:scale-105 transition-transform duration-300"
           />
@@ -32,7 +32,7 @@ function Hero() {
               View My Work
             </a>
             <a
-              href="/cv.pdf"
+              href="cv.pdf"
               download
               className="bg-gray-900 text-white px-6 py-3 rounded hover:bg-gray-700 transition duration-200"
             >
@@ -58,7 +58,7 @@ function Hero() {
             }}
           >
             <img
-              src="/linkedin.svg"
+              src="linkedin.svg"
               alt="LinkedIn"
               style={{
                 width: '2rem',
@@ -86,7 +86,7 @@ function Hero() {
             }}
           >
             <img
-              src="/email.svg"
+              src="email.svg"
               alt="Email"
               style={{
                 width: '2rem',
@@ -114,7 +114,7 @@ function Hero() {
             }}
           >
             <img
-              src="/github.svg"
+              src="github.svg"
               alt="Github"
               style={{
                 width: '2rem',
