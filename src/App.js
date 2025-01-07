@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
+import Gallery from './components/Gallery';
 import Projects from './components/Project';
 import Skills from './components/Skills';
 import Achievements from './components/Achievements';
@@ -23,6 +24,7 @@ function App() {
         <Achievements />
         <Education />
         <Projects />
+        <Gallery />
         <Contact />
       </main>
       <ScrollToTopButton />

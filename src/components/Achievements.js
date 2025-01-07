@@ -6,8 +6,8 @@ function Achievements() {
     '2nd place finish 2024 inter-departmental debate competition @ PAU',
     'Deputy Team Lead, Financial Technology Team, The Finance Society @ PAU',
     'Course Representative, Software Engineering Department @ PAU',
-    'Published 3 technical articles on Medium',
-    'Built 9+ successful projects',
+    'Published 3+ technical articles on Medium',
+    'Built 5+ successful projects',
   ];
 
   return (
