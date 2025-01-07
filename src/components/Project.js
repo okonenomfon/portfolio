@@ -6,19 +6,25 @@ const projects = [
     title: "Portfolio Website",
     description: "A personal portfolio to showcase my projects and skills.",
     image: "portfolio.png",
-    link: "#",
+    link: "https://okonenomfon.github.io/portfolio/",
   },
   {
-    title: "E-commerce Platform",
-    description: "A scalable e-commerce platform with React and Node.js.",
-    image: "ecom.jpg",
+    title: "House Prices Prediction Model",
+    description: "A model to predict the price of houses in a certain region based on specific features.",
+    image: "house.jpg",
     link: "#",
   },
   {
     title: "Weather App",
     description: "A weather forecasting app using OpenWeatherMap API.",
     image: "weather.jpg",
-    link: "#",
+    link: "https://github.com/okonenomfon/projects/tree/main/weather",
+  },
+  {
+    title: "Restaurant Menu GUI",
+    description: "A restaurant menu with a cool graphic interface using Python Tkinter.",
+    image: "restaurant.png",
+    link: "https://github.com/okonenomfon/EOkonCOS102",
   },
   {
     title: "CBT Application",
@@ -27,17 +33,17 @@ const projects = [
     link: "#",
   },
   {
-    title: "Restaurant Menu GUI",
-    description: "A restaurant menu with a cool graphic interface using Python Tkinter.",
-    image: "restaurant.png",
+    title: "E-commerce Platform",
+    description: "A scalable e-commerce platform with Python Flask.",
+    image: "ecom.jpg",
     link: "#",
   },
-  {
+ /* {
     title: "To-Do list",
     description: "A task management app with drag-and-drop functionality.",
     image: "todo.jpg",
     link: "#",
-  },
+  },*/
 ];
 
 function Projects() {
